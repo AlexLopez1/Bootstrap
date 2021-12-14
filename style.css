@@ -1,5 +1,5 @@
 html, body {
-    background: #fff0f0;
+    background: #ffdfdf;
      
 }
 
@@ -11,12 +11,38 @@ button {
     text-align:center;
 }
 
+section {
+    background:#ff8b8b;
+    height: 500px;
+    margin: 25px auto;
+}
+
+header{
+    font-size:40px;
+    padding: 15px;
+    font-weight:bold;
+}
+
+h2 {
+    font-weight:bold;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+img {
+    height: 200px;
+}
+
 .introduction {
     position: relative;
-    top: 50px;
+    top: 100px;
     margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .btn {
@@ -25,13 +51,12 @@ button {
     color: black;
 }
 
-section {
-    background:#ff8b8b;
-    height: 270px;
-    margin: 25px auto;
+.container {
+    text-align:center;
 }
 
-header{
-    font-size: 40px;
-    padding: 15px;
+.research {
+    height: 100px;
+    background-color:#ff8b8b
+    
 }
