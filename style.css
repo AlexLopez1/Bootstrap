@@ -53,27 +53,21 @@ img {
     color: black;
 }
 
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background: #ff7a7a;
+    border: 2px solid black;
+    color: black;
+}
+
 .container {
     text-align:center;
 }
 
 .research {
-    height: 100px;
+    height: 250px;
     background-color:#ff8b8b
     
-}
-
-.infographic {
-    height: 1000px;
-    width: 1000px;
-    background-color: #ff8b8b;
-    border: 5px solid black;
-    border-radius: 3%; 
-    font-family: 'Patrick Hand', cursive;
-}
-
-.positive {
-    position: relative;
-    right: 300px;
 }
 
